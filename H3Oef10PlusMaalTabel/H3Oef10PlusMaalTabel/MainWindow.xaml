@@ -7,12 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Height="391" Margin="10,0,0,0" VerticalAlignment="Center" Width="656" HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True"/>
-        <Button x:Name="plusButton" Content="Optellen" HorizontalAlignment="Left" Height="46" Margin="684,160,0,0" VerticalAlignment="Top" Width="106" Click="plusButton_Click"/>
-        <Button x:Name="multiplyButton" Content="Vermenigvuldigen" HorizontalAlignment="Left" Height="46" Margin="684,222,0,0" VerticalAlignment="Top" Width="106" Click="multiplyButton_Click"/>
-        <Button x:Name="clearButton" Content="Wissen" HorizontalAlignment="Left" Height="46" Margin="684,283,0,0" VerticalAlignment="Top" Width="106" Click="clearButton_Click"/>
-        <Button x:Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Height="46" Margin="684,347,0,0" VerticalAlignment="Top" Width="106" Click="closeButton_Click" />
-        <Label x:Name="maxValueLabel" Content="Maximum waarde:" HorizontalAlignment="Left" Height="29" Margin="677,22,0,0" VerticalAlignment="Top" Width="119" FontWeight="Bold" RenderTransformOrigin="0.5,0.5">
+        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Height="391" Margin="27,0,0,0" VerticalAlignment="Center" Width="613" HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True"/>
+        <Button x:Name="plusButton" Content="Optellen" HorizontalAlignment="Left" Height="46" Margin="656,161,0,0" VerticalAlignment="Top" Width="106" Click="plusButton_Click"/>
+        <Button x:Name="multiplyButton" Content="Vermenigvuldigen" HorizontalAlignment="Left" Height="46" Margin="656,223,0,0" VerticalAlignment="Top" Width="106" Click="multiplyButton_Click"/>
+        <Button x:Name="clearButton" Content="Wissen" HorizontalAlignment="Left" Height="46" Margin="656,284,0,0" VerticalAlignment="Top" Width="106" Click="clearButton_Click"/>
+        <Button x:Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Height="46" Margin="656,348,0,0" VerticalAlignment="Top" Width="106" Click="closeButton_Click" />
+        <Label x:Name="maxValueLabel" Content="Maximum waarde:" HorizontalAlignment="Left" Height="29" Margin="649,23,0,0" VerticalAlignment="Top" Width="119" FontWeight="Bold" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -22,7 +22,7 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <TextBox x:Name="maxValueTextBox" HorizontalAlignment="Left" Height="23" Margin="684,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106" Text="10" />
+        <TextBox x:Name="maxValueTextBox" HorizontalAlignment="Left" Height="23" Margin="656,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106" Text="10" />
 
     </Grid>
 </Window>
