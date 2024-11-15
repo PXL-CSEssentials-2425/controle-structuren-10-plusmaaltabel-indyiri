@@ -25,6 +25,8 @@ namespace H3Oef10PlusMaalTabel
 
         private void plusButton_Click(object sender, RoutedEventArgs e)
         {
+            sb.Clear();
+
             int row;
             int col;
             int maxValue;
@@ -66,6 +68,8 @@ namespace H3Oef10PlusMaalTabel
 
         private void multiplyButton_Click(object sender, RoutedEventArgs e)
         {
+            sb.Clear();
+            
             int row;
             int col;
             int maxValue;
